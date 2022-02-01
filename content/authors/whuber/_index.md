@@ -13,31 +13,38 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2008
 email: ""
+highlight_name: true
 interests:
 - Artificial Intelligence
 - Computational Linguistics
 - Information Retrieval
 organizations:
-- name: Stanford University
-  url: ""
+- name: EMBL
+  url: https://www.embl.org/groups/huber/
 role: Professor of Artificial Intelligence
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
+  link: /#contact
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/wolfgangkhuber
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=gI8o6x8AAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/wolfganghuber
+- icon: linkedin
+  icon_pack: fab
+  link: https://de.linkedin.com/in/wolfgang-huber-21b2344
 superuser: false
-title: 吳恩達
+title: Wolfgang Huber
+user_groups:
+    - Principal Investigators
+weight: 20
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Wolfgang Huber Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

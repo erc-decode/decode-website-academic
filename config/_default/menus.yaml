@@ -11,9 +11,12 @@ main:
     url: '#DT_pages_news'
     weight: 20
   - name: Team
-    url: '#'
+    url: '#DT_people_PIs'
     weight: 30
   - name: Publications
-    #url: '#DT_pages_publications'
-    url: '#'
+    url: '#DT_pages_publications'
+    #url: '#'
     weight: 40
+  - name: Jobs
+    url: '#'
+    weight: 50
