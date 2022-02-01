@@ -1,0 +1,17 @@
+## user-specific files and directories related to R/RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+## Mac-specific files
+.DS_Store
+
+## Windows-specific files
+Thumbs.db
+
+## complete static website as generated from the build process
+public/
+
+## generated images
+resources/_gen/images/
