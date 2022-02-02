@@ -1,6 +1,7 @@
 ---
 title: Computational methods development
-date: "2022-02-28"
+draft: false
+date: 2022-01-28
 duration: "3 years"
 authors:
     - whuber
