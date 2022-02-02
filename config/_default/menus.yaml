@@ -15,7 +15,6 @@ main:
     weight: 30
   - name: Publications
     url: '#DT_pages_publications'
-    #url: '#'
     weight: 40
   - name: Jobs
     url: '#DT_pages_jobs'

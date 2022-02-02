@@ -4,7 +4,7 @@ date: "2022-02-28"
 duration: "3 years"
 authors:
     - whuber
-summary: Postdoctoral fellowship at EMBL in Wolfgang Huber's group
+summary: Postdoctoral fellowship in computational biology at EMBL
 ad_url: https://www.embl.org/jobs/position/HD02106
 tags: ["Huber Group", "EMBL", "Computational Biology", "Postdoc"]
 ---

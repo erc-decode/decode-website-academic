@@ -39,6 +39,7 @@ social:
   link: https://de.linkedin.com/in/wolfgang-huber-21b2344
 superuser: false
 title: Wolfgang Huber
+group_name: Huber group
 user_groups:
     - Principal Investigators
 weight: 20

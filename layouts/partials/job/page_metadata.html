@@ -1,29 +1,26 @@
-{{ $is_list := .is_list }}
 {{ $page := .page }}
 
 <div class="article-metadata">
 
-  {{ if not (in (slice "event" "page") $page.Type) | and (ne $page.Params.show_date false) }}
+  {{/* Closing date of the job offer */}}
+  {{ if (eq $page.Type "job") }}
   <span class="article-date">
-    {{ $date := $page.Lastmod | time.Format site.Params.date_format }}
-    {{ if eq $page.Type "publication" }}
-      {{ $date = $page.Date | time.Format (site.Params.publications.date_format | default "January, 2006") }}
+    Closing date:
+    {{ if and ($page.Date) (ne $page.Params.show_date false) }}
+      {{ $page.Date | time.Format site.Params.date_format }}
     {{ else }}
-      {{ if ne $page.Params.Lastmod $page.Params.Date }}
-          {{ i18n "last_updated" }}
-      {{ end }}
+      NA
     {{ end }}
-    Closing date: {{ $date }}
   </span>
   {{ end }}
 
-  {{/* if and (eq $page.Type "post") (not (or (eq site.Params.reading_time false) (eq $page.Params.reading_time false))) */}}
+  {{/* Duration of the offered contract */}}
   <span class="middot-divider"></span>
   <span class="article-duration">
-    Contract duration: {{ $page.Params.Duration }}
+    Contract duration: {{ $page.Params.Duration | default "NA" }}
   </span>
-  {{/* end */}}
 
+  {{/* Link to the original job ad */}}
   <span class="middot-divider"></span>
   <span class="article-ad">
     <a href="{{ $page.Params.ad_url }}" target="_blank">
@@ -32,6 +29,7 @@
     </a>
   </span>
 
+  {{/* Linked list of tags connected to the job offer */}}
   {{ $taxonomy := "tags" }}
   {{ if $page.Param $taxonomy }}
   <span class="middot-divider"></span>

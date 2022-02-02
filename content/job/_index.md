@@ -3,6 +3,6 @@ cms_exclude: true
 header:
   caption: ""
   image: ""
-title: Job offers in DECODE
-view: 2
+title: Current job offers in DECODE
+view: 3
 ---
