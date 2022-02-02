@@ -18,5 +18,5 @@ main:
     #url: '#'
     weight: 40
   - name: Jobs
-    url: '#'
+    url: '#DT_pages_jobs'
     weight: 50

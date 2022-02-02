@@ -1,6 +1,5 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: ""
 email: ""
 organizations:
 - name: DKFZ
