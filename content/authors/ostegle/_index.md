@@ -36,4 +36,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 
 ## Role in the project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+In the DECODE project, the Stegle lab is closely collaborating with the Huber lab to establish the computational foundation for the project. In doing so, we will develop computational methods for unravelling causal dependencies in cellular networks. We are particularly interested in deploying multi-omics approaches and tying together perturbation states with phenotypic consequences.
