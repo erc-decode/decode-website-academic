@@ -7,9 +7,10 @@ widget: people
 headless: true
 
 # Order that this section appears on the page.
-weight: 45
+weight: 50
 
 title: Participating groups
+subtitle: Subtitle
 
 content:
   # Choose which groups/teams of users to display.
@@ -22,7 +23,6 @@ design:
   show_interests: false
   show_role: false
   show_organizations: true
-  columns: '1'
-  spacing:
-    padding: ["3em", "0", "3em", "0"]
 ---
+
+Additional text ...

@@ -3,11 +3,11 @@ bio: My research interests include distributed robotics, mobile computing and pr
   matter.
 email: ""
 organizations:
-- name: EMBL
-  url: https://www.embl.org/groups/stegle/
 - name: DKFZ
   url: https://www.dkfz.de/en/bioinformatik-genomik-systemgenetik/
-role: Professor of Artificial Intelligence
+- name: EMBL
+  url: https://www.embl.org/groups/stegle/
+role: Principal Investigator
 social:
 - icon: envelope
   icon_pack: fas
@@ -28,6 +28,12 @@ user_groups:
 weight: 40
 ---
 
+# Stegle group
+
 Oliver Stegle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+## Role in the project
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

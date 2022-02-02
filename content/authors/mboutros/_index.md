@@ -5,7 +5,7 @@ email: ""
 organizations:
 - name: DKFZ
   url: https://www.dkfz.de/en/signaling/
-role: Professor of Artificial Intelligence
+role: Principal Investigator
 social:
 - icon: envelope
   icon_pack: fas
@@ -26,6 +26,12 @@ user_groups:
 weight: 10
 ---
 
+# Boutros group
+
 Michael Boutros Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+## Role in the project
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
