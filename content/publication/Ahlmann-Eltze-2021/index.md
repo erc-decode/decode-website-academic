@@ -17,5 +17,6 @@ featured: false
 doi: 10.1101/2021.06.24.449781
 url_pdf: https://www.biorxiv.org/content/10.1101/2021.06.24.449781v2.full.pdf
 url_code: https://github.com/const-ae/transformGamPoi
+tags: ["Huber Group", "Bioinformatics"]
 ---
 

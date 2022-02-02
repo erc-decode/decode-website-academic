@@ -24,5 +24,6 @@ links:
 doi: 10.1093/bioinformatics/btaa1009
 url_pdf: https://academic.oup.com/bioinformatics/article-pdf/36/24/5701/36899440/btaa1009.pdf
 url_code: https://github.com/const-ae/glmGamPoi
+tags: ["Huber Group", "Bioinformatics"]
 ---
 

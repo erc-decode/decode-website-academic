@@ -33,15 +33,16 @@ authors:
     - Erica Valentini
     - mboutros
 date: 2020-02-13
-doi: 10.7554/eLife.53865
 publication: 'eLife, 9:e53865'
 publication_short: ""
 publication_types:
     - 2
 featured: false
-url_pdf: https://elifesciences.org/articles/53865.pdf
 links:
 - name: PubMed
   url: https://pubmed.ncbi.nlm.nih.gov/32053108/
+doi: 10.7554/eLife.53865
+url_pdf: https://elifesciences.org/articles/53865.pdf
+tags: ["Boutros Group", "Drosophila"]
 ---
 

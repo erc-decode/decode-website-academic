@@ -8,15 +8,16 @@ authors:
     - Maja Starostecka
     - mboutros
 date: 2020-08-25
-doi: 10.1073/pnas.2004655117
 publication: 'PNAS September 15, 2020 117 (37) 22890-22899'
 publication_short: ""
 publication_types:
     - 2
 featured: false
-url_pdf: https://www.pnas.org/content/pnas/117/37/22890.full.pdf
 links:
 - name: PubMed
   url: https://pubmed.ncbi.nlm.nih.gov/32843348/
+doi: 10.1073/pnas.2004655117
+url_pdf: https://www.pnas.org/content/pnas/117/37/22890.full.pdf
+tags: ["Boutros Group", "Drosophila"]
 ---
 
