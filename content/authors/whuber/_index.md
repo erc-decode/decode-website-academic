@@ -12,7 +12,6 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2008
 email: ""
-highlight_name: true
 interests:
 - Artificial Intelligence
 - Computational Linguistics
@@ -43,6 +42,7 @@ group_name: Huber group
 user_groups:
     - Principal Investigators
 weight: 20
+highlight_name: true
 ---
 
 # Huber group

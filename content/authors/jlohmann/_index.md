@@ -20,9 +20,11 @@ social:
   link: https://github.com/gcushen
 superuser: false
 title: Jan Lohmann
+group_name: Lohmann group
 user_groups:
     - Principal Investigators
 weight: 30
+highlight_name: true
 ---
 
 # Lohmann group

@@ -22,9 +22,11 @@ social:
   link: https://github.com/gcushen
 superuser: false
 title: Oliver Stegle
+group_name: Stegle group
 user_groups:
     - Principal Investigators
 weight: 40
+highlight_name: true
 ---
 
 # Stegle group

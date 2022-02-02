@@ -20,9 +20,11 @@ social:
   link: https://github.com/gcushen
 superuser: false
 title: Michael Boutros
+group_name: Boutros group
 user_groups:
     - Principal Investigators
 weight: 10
+highlight_name: true
 ---
 
 # Boutros group
