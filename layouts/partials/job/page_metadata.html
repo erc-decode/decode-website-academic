@@ -6,8 +6,8 @@
   {{ if (eq $page.Type "job") }}
   <span class="article-date">
     Closing date:
-    {{ if and ($page.Date) (ne $page.Params.show_date false) }}
-      {{ $page.Date | time.Format site.Params.date_format }}
+    {{ if and ($page.Params.closing_date) (ne $page.Params.show_date false) }}
+      {{ $page.Params.closing_date | time.Format site.Params.date_format }}
     {{ else }}
       NA
     {{ end }}
