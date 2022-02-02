@@ -5,22 +5,18 @@
 
 ### locations
 
-* $ROOT/layouts/job/
 * $ROOT/layouts/partials/
 * $ROOT/layouts/partials/job/
 
 
-### single.html (compared to _default/single.html)
-
-* Changed '{{ partial "page_header" . }}' to '{{ partial "job/page_header" . }}' in line 5.
-
-
 ### page_header.html
 
-* Changed '{{ partial "page_metadata" (...) }}' to '{{ partial "job/page_metadata" (...) }}' in lines 68 and 95, thus pointing to the custom partial instead of the default one supplied by the Academic theme
+* Replaced the statements '{{ partial "page_metadata" (...) }}' in lines 68 and 95 by appropriate if...else constructs to distinguish job and other pages.
 
 
-### page_metadata.html
+### job/page_metadata.html
+
+We customize this file to display non-standard page metadata for job offers.
 
 * Remove first block associated with author.
 * Add "Closing date:" in front of the date to be displayed (second block).

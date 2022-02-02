@@ -65,7 +65,11 @@
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}
 
-  {{ partial "job/page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+  {{ if eq $page.Type "job" }}
+    {{ partial "job/page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+  {{ else }}  
+    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+  {{ end }}
   {{ partial "page_links_div.html" $page }}
 </div>
 
@@ -92,7 +96,11 @@
   {{end}}
 
   {{ if not .IsNode }}
-    {{ partial "job/page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+    {{ if eq $page.Type "job" }}
+      {{ partial "job/page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+    {{ else }}  
+      {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+    {{ end }}
     {{ partial "page_links_div.html" $page }}
   {{end}}
 </div>
