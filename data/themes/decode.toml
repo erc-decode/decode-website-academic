@@ -1,3 +1,12 @@
+##
+## DECODE logo colors
+##  - orange: #F39200
+##  - red:    #CD1719
+##
+## Institute banner background: #FABF73
+##
+
+
 # Theme metadata
 name = "DECODE"
 
@@ -18,5 +27,5 @@ home_section_odd = "rgb(255, 255, 255)"
 home_section_even = "rgb(247, 247, 247)"
 
 [dark]
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
+  link = "#FABF73"
+  link_hover = "#FABF73"

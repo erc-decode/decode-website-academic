@@ -16,6 +16,8 @@ title: ""
 
 design:
   columns: '1'
+  background:
+    color: "#FABF73"
   spacing:
     padding: ["1em", "0", "1.5em", "0"]
 ---
