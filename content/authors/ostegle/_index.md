@@ -25,6 +25,7 @@ title: Oliver Stegle
 group_name: Stegle group
 user_groups:
     - Principal Investigators
+    - Team
 weight: 40
 highlight_name: true
 ---

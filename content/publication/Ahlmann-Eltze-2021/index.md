@@ -6,7 +6,7 @@ abstract: |
     **Software:** An R package implementing the delta method and residuals-based variance-stabilizing transformations is available on [github.com/const-ae/transformGamPoi](https://github.com/const-ae/transformGamPoi).
 
 authors:
-    - Constantin Ahlmann-Eltze
+    - cahlmanneltze
     - whuber
 date: 2021-08-25
 publication: '*bioRxiv*'

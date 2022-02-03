@@ -13,11 +13,11 @@ abstract: Genetic screens are powerful tools for the functional annotation of ge
   transgenic CRISPR screen in any metazoan organism, which further supported the high efficiency and accuracy of our library and
   revealed many so far uncharacterized genes essential for development.
 authors:
-    - Fillip Port
+    - fport
     - Claudia Strein
     - Mona Stricker
     - Benedikt Rauscher
-    - Florian Heigwer
+    - fheigwer
     - Jun Zhou
     - Celine Beyersdörffer
     - Jana Frei

@@ -23,6 +23,7 @@ title: Jan Lohmann
 group_name: Lohmann group
 user_groups:
     - Principal Investigators
+    - Team
 weight: 30
 highlight_name: true
 ---

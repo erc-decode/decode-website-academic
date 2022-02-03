@@ -23,6 +23,7 @@ title: Michael Boutros
 group_name: Boutros group
 user_groups:
     - Principal Investigators
+    - Team
 weight: 10
 highlight_name: true
 ---

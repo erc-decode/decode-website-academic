@@ -41,6 +41,7 @@ title: Wolfgang Huber
 group_name: Huber group
 user_groups:
     - Principal Investigators
+    - Team
 weight: 20
 highlight_name: true
 ---

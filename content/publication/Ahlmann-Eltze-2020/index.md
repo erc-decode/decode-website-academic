@@ -10,7 +10,7 @@ abstract: |
     **Supplementary information:** Supplementary data are available at Bioinformatics online.
 
 authors:
-    - Constantin Ahlmann-Eltze
+    - cahlmanneltze
     - whuber
 date: 2020-12-09
 publication: '*Bioinformatics*, Volume 36, Issue 24, 15 December 2020, Pages 5701–5702'

@@ -10,11 +10,16 @@ headless: true
 weight: 50
 
 title: Participating groups
-subtitle: Subtitle
+subtitle: >
+    <div>
+      <a href="/people">
+        SEE THE WHOLE DECOE TEAM
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
 
 content:
   # Choose which groups/teams of users to display.
-  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
     - Principal Investigators
 
@@ -24,5 +29,3 @@ design:
   show_role: false
   show_organizations: true
 ---
-
-Additional text ...
