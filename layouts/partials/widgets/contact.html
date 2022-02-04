@@ -1,0 +1,23 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+
+{{/* Distinguish between 1- and 2-column layot (cf. contact.html widget) */}}
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+    {{ with $st.Content }}{{ . }}{{ end }}
+
+    {{/* Iterate over contacts */}}
+    <ul class="fa-ul wg-contact">
+        {{/* Postal address */}}
+        <li>
+            <i class="fa-li fas fa-address-book fa-2x" aria-hidden="true" style="color: var(--primary)"></i>
+            {{ $addr_formatted := partial "functions/get_address" (dict "root" . "address" $st.Params.address) }}
+            <span id="person-address">{{- $addr_formatted -}}</span>
+        </li>
+        {{/* Email address */}}
+        <li>
+            <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true" style="color: var(--primary)"></i>
+            <span id="person-email">{{- $st.Params.email -}}</span>
+        </li>
+    </ul>
+</div>

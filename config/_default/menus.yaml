@@ -19,3 +19,6 @@ main:
   - name: Jobs
     url: '#DT_pages_jobs'
     weight: 50
+  - name: Contact
+    url: '/contact'
+    weight: 60

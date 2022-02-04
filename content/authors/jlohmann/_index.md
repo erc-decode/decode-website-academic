@@ -8,7 +8,7 @@ role: Principal Investigator
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: /contact/#DT_contact_lohmann
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/meristemania
