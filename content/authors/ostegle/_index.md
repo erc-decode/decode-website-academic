@@ -10,16 +10,20 @@ role: Principal Investigator
 social:
 - icon: envelope
   icon_pack: fas
-  link: /contact/#DT_contact_huber
+  link: /contact/#DT_contact_stegle
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/oliverstegle
+  link: https://twitter.com/StatGenomics
+  #link: https://twitter.com/oliverstegle
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.com/citations?user=ClSXZ4IAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/ostegle
+- icon: linkedin
+  icon_pack: fab
+  link: https://de.linkedin.com/in/oliver-stegle-4b128818
 superuser: false
 title: Oliver Stegle
 group_name: Stegle group

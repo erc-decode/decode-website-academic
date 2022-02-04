@@ -11,13 +11,15 @@ social:
   link: /contact/#DT_contact_boutros
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/michael_boutros
+  link: https://twitter.com/Boutroslab
+  #link: https://twitter.com/michael_boutros
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=k-q8lsYAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/boutroslab/
+  #link: https://github.com/mboutros
 superuser: false
 title: Michael Boutros
 group_name: Boutros group
