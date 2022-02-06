@@ -21,3 +21,7 @@ options(
 
 # fix Hugo version
 options(blogdown.hugo.version = "0.92.1")
+
+# add additional flags to be passed to the hugo server CLI
+# (the first three entries are the blogdown default settings, the fouth one is to generate the public/ folder)
+#options(blogdown.hugo.server= c('-D', '-F', '--navigateToChanged', '--renderToDisk'))
