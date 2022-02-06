@@ -13,9 +13,17 @@ main:
   - name: Team
     url: '#DT_people_PIs'
     weight: 30
-  - name: Publications
-    url: '#DT_pages_publications'
+  - name: Results
+    identifier: 'main_results'
     weight: 40
+  - name: Publications
+    parent: 'main_results'
+    url: '#DT_pages_publications'
+    weight: 41
+  - name: Methods
+    parent: 'main_results'
+    url: '#'
+    weight: 42
   - name: Jobs
     url: '#DT_pages_jobs'
     weight: 50
