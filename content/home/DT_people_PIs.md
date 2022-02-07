@@ -11,12 +11,12 @@ weight: 50
 
 title: Participating groups
 subtitle: >
-    <div>
+    <h4 style="margin-bottom: 2em">
       <a href="/people">
-        SEE THE WHOLE DECOE TEAM
+        SEE THE WHOLE DECODE TEAM
         <i class="fas fa-angle-right"></i>
       </a>
-    </div>
+    </h4>
 
 content:
   # Choose which groups/teams of users to display.
