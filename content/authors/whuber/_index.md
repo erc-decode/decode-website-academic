@@ -22,9 +22,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/wolfganghuber
-- icon: linkedin
-  icon_pack: fab
-  link: https://de.linkedin.com/in/wolfgang-huber-21b2344
 superuser: false
 title: Wolfgang Huber
 group_name: Huber group
