@@ -47,7 +47,7 @@ highlight_languages:
   - latex
 math: false
 diagram: false
-privacy_pack: false
+privacy_pack: true
 edit_page:
   repo_url: ''
   content_dir: ''

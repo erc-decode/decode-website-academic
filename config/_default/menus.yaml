@@ -16,11 +16,15 @@ main:
   - name: Results
     identifier: 'main_results'
     weight: 40
-  - name: Publications
+  - name: Research papers
     parent: 'main_results'
     url: '#DT_pages_publications'
     weight: 41
-  - name: Methods
+  - name: Datasets
+    parent: 'main_results'
+    url: '#'
+    weight: 42
+  - name: Software
     parent: 'main_results'
     url: '#'
     weight: 42
