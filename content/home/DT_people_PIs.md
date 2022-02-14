@@ -10,13 +10,14 @@ headless: true
 weight: 50
 
 title: Participating groups
-subtitle: >
-    <h4 style="margin-bottom: 2em">
-      <a href="/people">
-        SEE THE WHOLE DECODE TEAM
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </h4>
+subtitle: <br>
+#subtitle: >
+#    <h4 style="margin-bottom: 2em">
+#      <a href="/people">
+#        SEE THE WHOLE DECODE TEAM
+#        <i class="fas fa-angle-right"></i>
+#      </a>
+#    </h4>
 
 content:
   # Choose which groups/teams of users to display.
