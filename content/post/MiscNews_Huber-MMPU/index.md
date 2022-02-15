@@ -14,7 +14,7 @@ summary: ""
 tags:
     - Huber Group
 image:
-    caption: The MMPU is co-directed by Wolfgang Huber (left), Andreas Kulozik (middle), and Matthias Hentze (right).
+    caption: "The MMPU is co-directed by Wolfgang Huber, Andreas Kulozik, and Matthias Hentze (from left to right). Credit: EMBL Photolab."
 ---
 
 Wolfgang Huber was elected co-director of the [Molecular Medicine Partnership Unit](https://www.embl.org/about/info/mmpu/) (MMPU) between EMBL and Heidelberg University Hospital and started in his new role on 1 January 2022.
