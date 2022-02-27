@@ -17,26 +17,17 @@ subtitle: ''
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - name: Single-Cell Transcriptomics
-  icon: r-project
-  icon_pack: fab
+  icon: rna
+  icon_pack: custom
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 - name: Single-Cell Imaging
   icon: microscope
-  icon_pack: fas
+  icon_pack: custom
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 - name: Bioinformatics Analysis
-  icon: chart-line
-  icon_pack: fas
+  icon: network
+  icon_pack: custom
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-# Uncomment to use custom SVG icons.
-# Place your custom SVG icon in `assets/media/icons/`.
-# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`
-#- icon: your-custom-icon-name
-#  icon_pack: custom
-#  name: Surfing
-#  description: 90%
 
 design:
   spacing:
