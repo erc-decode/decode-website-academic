@@ -14,10 +14,12 @@
             {{ $addr_formatted := partial "functions/get_address" (dict "root" . "address" $st.Params.address) }}
             <span id="person-address">{{- $addr_formatted -}}</span>
         </li>
-        {{/* Email address */}}
+        {{/* Email address (only if set) */}}
+        {{ with $st.Params.email }}
         <li>
             <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true" style="color: var(--primary)"></i>
-            <span id="person-email">{{- $st.Params.email -}}</span>
+            <span id="person-email">{{- . -}}</span>
         </li>
+        {{ end }}
     </ul>
 </div>
