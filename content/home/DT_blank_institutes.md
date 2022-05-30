@@ -23,29 +23,52 @@ design:
 ---
 
 <div class="row align-items-center">
+    <!--
+      -- ERC
+      -->
     <div class="col-12 col-md">
         <div class="featurette-icon">
             <a href="https://erc.europa.eu/"><img src="/media/erc-logo.png" style="display: inline-block; max-height: 95px; max-width: 75%; height: auto; width: auto;"/></a>
         </div>
     </div>
+    <!--
+      -- EMBL
+      -->
     <div class="col-12 col-md mt-4 mt-md-0">
         <div class="featurette-icon">
             <a href="https://www.embl.org/sites/heidelberg/"><img src="/media/embl-logo.png" style="display: inline-block; max-height: 85px; max-width: 75%; height: auto; width: auto;"/></a>
         </div>
     </div>
+    <!--
+      -- DKFZ
+      -->
     <div class="col-12 col-md mt-4 mt-md-0">
         <div class="featurette-icon">
             <a href="https://www.dkfz.de/en/index.html"><img src="/media/dkfz-logo.png" style="display: inline-block; max-height: 55px; max-width: 75%; height: auto; width: auto;"/></a>
         </div>
     </div>
-    <div class="col-12 col-md mt-4 mt-md-0">
+    <!--
+      -- COS
+      -->
+    <!--div class="col-12 col-md mt-4 mt-md-0">
         <div class="featurette-icon">
             <a href="https://www.cos.uni-heidelberg.de/en"><img src="/media/cos-logo.png" style="display: inline-block; max-height: 80px; max-width: 75%; height: auto; width: auto;"/></a>
         </div>
-    </div>
+    </div-->
+    <!--
+      -- Uni HD
+      -->
     <div class="col-12 col-md mt-4 mt-md-0">
         <div class="featurette-icon">
-            <a href="https://www.bioquant.uni-heidelberg.de/"><img src="/media/bq-logo.png" style="display: inline-block; max-height: 90px; max-width: 75%; height: auto; width: auto;"/></a>
+            <a href="https://www.uni-heidelberg.de/en"><img src="/media/uni-hd-logo.png" style="display: inline-block; max-height: 75px; max-width: 75%; height: auto; width: auto;"/></a>
+        </div>
+    </div>
+    <!--
+      -- BioQuant
+      -->
+    <div class="col-12 col-md mt-4 mt-md-0">
+        <div class="featurette-icon">
+            <a href="https://www.bioquant.uni-heidelberg.de/"><img src="/media/bq-logo.png" style="display: inline-block; max-height: 85px; max-width: 75%; height: auto; width: auto;"/></a>
         </div>
     </div>
 </div>
