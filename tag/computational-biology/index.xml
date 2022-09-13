@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computational Biology | ERC DECODE</title><link>https://jovial-ptolemy-b3cfc4.netlify.app/tag/computational-biology/</link><atom:link href="https://jovial-ptolemy-b3cfc4.netlify.app/tag/computational-biology/index.xml" rel="self" type="application/rss+xml"/><description>Computational Biology</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Copyright, 2022 Heidelberg, EMBL, DKFZ, COS. This work was performed on behalf of the DECODE Consortium and funded under the European Research Council Synergy Grant DECODE under grant agreement No. 810296.</copyright><lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate><image><url>https://jovial-ptolemy-b3cfc4.netlify.app/media/logo_hu755fd628a59dfbfb6631c31ab0c8a3a3_17790_300x300_fit_lanczos_3.png</url><title>Computational Biology</title><link>https://jovial-ptolemy-b3cfc4.netlify.app/tag/computational-biology/</link></image><item><title>Computational methods development</title><link>https://jovial-ptolemy-b3cfc4.netlify.app/job/2022-embl-computational-postdoc/</link><pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate><guid>https://jovial-ptolemy-b3cfc4.netlify.app/job/2022-embl-computational-postdoc/</guid><description>&lt;h2 id="your-role">Your role&lt;/h2>
+&lt;p>As part of the research team, you will participate in the overall project and shape your own research profile in one or several of the following areas:&lt;/p>
+&lt;ul>
+&lt;li>Conduct integrative data analysis for biological discovery in:
+&lt;ul>
+&lt;li>Single-cell RNA-seq data analysis at ultra-large scale;&lt;/li>
+&lt;li>High-throughput CRISPR-KO perturbation analysis Imaging-based phenotyping;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Develop novel computational methods using multivariate statistics, Bayesian inference and manifold learning&lt;/li>
+&lt;li>Model cell states, transitions and genetic dependencies;&lt;/li>
+&lt;li>Model gene-gene and gene-environment interactions;&lt;/li>
+&lt;li>Data science, quality assurance, advanced visualization and model checking;&lt;/li>
+&lt;li>Develop scalable and robust software for scientific computing;&lt;/li>
+&lt;li>Probabilistic models of genetic causal networks using latent spaces, categories, graphs and dynamic processe.&lt;/li>
+&lt;/ul>
+&lt;h2 id="you-have">You have&lt;/h2>
+&lt;p>A PhD or equivalent qualification in a quantitative discipline (mathematics, statistics, physics, computer science, computational biology). We are looking for a range of talents, which should include some of the following: strong theoretical foundations in probability, statistics, linear algebra and/or differential geometry; high-dimensional statistics, machine learning and Bayesian approaches; biological data science and data-driven discovery; scientific programming. Applications from &amp;ldquo;newcomers&amp;rdquo; into biology are welcome.&lt;/p>
+&lt;h2 id="you-might-also-have">You might also have&lt;/h2>
+&lt;p>You are excited by making or contributing to biological discoveries, you are interested in interdisciplinary science, enjoy collaborative work and like to communicate concepts and results to other scientists in different fields of research.&lt;/p></description></item></channel></rss>

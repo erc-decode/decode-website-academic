@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://jovial-ptolemy-b3cfc4.netlify.app/sitemap.xml
