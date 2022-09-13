@@ -5,7 +5,8 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: ERC DECODE # Website name
-baseurl: 'https://jovial-ptolemy-b3cfc4.netlify.app/' # Website URL
+#baseurl: 'https://jovial-ptolemy-b3cfc4.netlify.app/' # Website URL
+baseurl: 'https://erc-decode.github.io'
 copyright: '© Copyright, 2022 Heidelberg, EMBL, DKFZ, COS. This work was performed on behalf of the DECODE Consortium and funded under the European Research Council Synergy Grant DECODE under grant agreement No. 810296.' # Footer text, e.g. '© {year} Me'
 
 ############################
