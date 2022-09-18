@@ -6,9 +6,10 @@ theme: "starter-hugo-academic"
 
 title: ERC DECODE # Website name
 #baseurl: 'https://jovial-ptolemy-b3cfc4.netlify.app/'
-#baseurl: 'https://erc-decode.github.io/decode-website-academic'
-baseurl: 'https://www.erc-decode.eu'
+baseurl: 'https://erc-decode.github.io/decode-website-academic'
+#baseurl: 'https://www.erc-decode.eu'
 relativeURLs: true
+canonifyURLs: true
 copyright: '© Copyright, 2022 Heidelberg, EMBL, DKFZ, COS. This work was performed on behalf of the DECODE Consortium and funded under the European Research Council Synergy Grant DECODE under grant agreement No. 810296.' # Footer text, e.g. '© {year} Me'
 
 ############################
