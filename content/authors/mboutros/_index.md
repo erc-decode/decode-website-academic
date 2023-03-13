@@ -32,10 +32,8 @@ highlight_name: true
 
 # Boutros group
 
-Michael Boutros Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Cellular signaling networks control key decisions during development, health and disease. Genomic approaches such as whole genome sequencing and genetic mapping have identified many genetic variants in signaling components, yet their function and interactions oftentimes remain unknown. To address this, we perform systematic screens to functionally identify novel components, understand how they are connected and how to interfere with their aberrant regulation in disease. We use genetic and genomic methods to link genotypes to phenotypes, and cell biological approaches to study specific processes and probe underlying mechanisms.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+<!--## Role in the project -->
 
-## Role in the project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

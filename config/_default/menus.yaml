@@ -13,24 +13,27 @@ main:
   - name: Team
     url: '#DT_people_PIs'
     weight: 30
-  - name: Results
-    identifier: 'main_results'
-    weight: 40
-  - name: Research papers
-    parent: 'main_results'
+  - name: Research Output
     url: '#DT_pages_publications'
-    weight: 41
-  - name: Datasets
-    parent: 'main_results'
-    url: '#'
-    weight: 42
-  - name: Software
-    parent: 'main_results'
-    url: '#'
-    weight: 42
-  - name: Jobs
-    url: '#DT_pages_jobs'
-    weight: 50
+    weight: 40
+  #- name: Results
+  #  identifier: 'main_results'
+  #  weight: 40
+  #- name: Research papers
+  #  parent: 'main_results'
+  #  url: '#DT_pages_publications'
+  #  weight: 41
+  #- name: Datasets
+  #  parent: 'main_results'
+  #  url: '#'
+  #  weight: 42
+  #- name: Software
+  #  parent: 'main_results'
+  #  url: '#'
+  #  weight: 42
+  #- name: Jobs
+  #  url: '#DT_pages_jobs'
+  #  weight: 50
   - name: Contact
     url: '/contact'
     weight: 60
