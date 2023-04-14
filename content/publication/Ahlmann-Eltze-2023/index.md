@@ -1,6 +1,7 @@
 ---
-title: "Comparison of transformations for single-cell RNA-seq data"
-abstract: "The count table, a numeric matrix of genes × cells, is the basic input
+title: 'Comparison of transformations for single-cell RNA-seq data'
+abstract: |
+    The count table, a numeric matrix of genes×cells, is the basic input
   data structure in the analysis of single-cell RNA-sequencing data. A common preprocessing
   step is to adjust the counts for variable sampling efficiency and to transform them
   so that the variance is similar across the dynamic range. These steps are intended
@@ -12,20 +13,21 @@ abstract: "The count table, a numeric matrix of genes × cells, is the basic
   rather simple approach, namely, the logarithm with a pseudo-count followed by principal-component
   analysis, performs as well or better than the more sophisticated alternatives. This
   result highlights limitations of current theoretical analysis as assessed by bottom-line
-  performance benchmarks.\n"
-date: "2023-04-10"
+  performance benchmarks
+  
+
 authors:
-- cahlmanneltze
-- whuber
+  - cahlmanneltze
+  - whuber
+date: 2023-04-10
 publication: '*Nature Methods*'
 publication_short: ''
-publication_types: 2
-featured: no
-doi: "10.1038/s41592-023-01814-1"
-url_pdf: "https://www.nature.com/articles/s41592-023-01814-1"
-url_code: "https://github.com/const-ae/transformGamPoi-Paper"
-tags:
-- Huber Group
-- Bioinformatics
+publication_types: 
+  - 2
+featured: false
+doi: 10.1038/s41592-023-01814-1
+url_pdf: https://www.nature.com/articles/s41592-023-01814-1
+url_code: https://github.com/const-ae/transformGamPoi-Paper
+tags: ["Huber Group", "Bioinformatics"]
 ---
 
