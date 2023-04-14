@@ -8,7 +8,7 @@
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
 <meta name=author content="Alice Bighetti (吳恩達)">
-<meta name=description content="The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-seq data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe three transformations (based on the delta method, model residuals, or inferred latent expression state) and compare their strengths and weaknesses. We find that although the residuals and latent expression state-based models have appealing theoretical properties, in benchmarks using simulated and real-world data the simple shifted logarithm in combination with principal component analysis performs surprisingly well.
+<meta name=description content="The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-sequencing data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe four transformation approaches based on the delta method, model residuals, inferred latent expression state and factor analysis. We compare their strengths and weaknesses and find that the latter three have appealing theoretical properties; however, in benchmarks using simulated and real-world data, it turns out that a rather simple approach, namely, the logarithm with a pseudo-count followed by principal-component analysis, performs as well or better than the more sophisticated alternatives. This result highlights limitations of current theoretical analysis as assessed by bottom-line performance benchmarks.
 
 **Software:** An R package implementing the delta method and residuals-based variance-stabilizing transformations is available on [github.com/const-ae/transformGamPoi](https://github.com/const-ae/transformGamPoi).
 ">
@@ -26,19 +26,19 @@
 <meta property="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="ERC DECODE">
 <meta property="og:url" content="https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/">
-<meta property="og:title" content="Transformation and Preprocessing of Single-Cell RNA-Seq Data | ERC DECODE">
-<meta property="og:description" content="The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-seq data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe three transformations (based on the delta method, model residuals, or inferred latent expression state) and compare their strengths and weaknesses. We find that although the residuals and latent expression state-based models have appealing theoretical properties, in benchmarks using simulated and real-world data the simple shifted logarithm in combination with principal component analysis performs surprisingly well.
+<meta property="og:title" content="Comparison of transformations for single-cell RNA-seq data | ERC DECODE">
+<meta property="og:description" content="The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-sequencing data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe four transformation approaches based on the delta method, model residuals, inferred latent expression state and factor analysis. We compare their strengths and weaknesses and find that the latter three have appealing theoretical properties; however, in benchmarks using simulated and real-world data, it turns out that a rather simple approach, namely, the logarithm with a pseudo-count followed by principal-component analysis, performs as well or better than the more sophisticated alternatives. This result highlights limitations of current theoretical analysis as assessed by bottom-line performance benchmarks.
 
 **Software:** An R package implementing the delta method and residuals-based variance-stabilizing transformations is available on [github.com/const-ae/transformGamPoi](https://github.com/const-ae/transformGamPoi).
 "><meta property="og:image" content="https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/featured.png">
 <meta property="twitter:image" content="https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/featured.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-08-25T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-08-25T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/"},"headline":"Transformation and Preprocessing of Single-Cell RNA-Seq Data","image":["https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/featured.png"],"datePublished":"2021-08-25T00:00:00Z","dateModified":"2021-08-25T00:00:00Z","author":{"@type":"Person","name":"Constantin Ahlmann-Eltze"},"publisher":{"@type":"Organization","name":"ERC DECODE","logo":{"@type":"ImageObject","url":"https://erc-decode.github.io/decode-website-academic/media/logo_hu755fd628a59dfbfb6631c31ab0c8a3a3_17790_192x192_fit_lanczos_3.png"}},"description":"The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-seq data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe three transformations (based on the delta method, model residuals, or inferred latent expression state) and compare their strengths and weaknesses. We find that although the residuals and latent expression state-based models have appealing theoretical properties, in benchmarks using simulated and real-world data the simple shifted logarithm in combination with principal component analysis performs surprisingly well.\n\n**Software:** An R package implementing the delta method and residuals-based variance-stabilizing transformations is available on [github.com/const-ae/transformGamPoi](https://github.com/const-ae/transformGamPoi).\n"}</script>
+<meta property="article:published_time" content="2023-04-10T00:00:00+00:00">
+<meta property="article:modified_time" content="2023-04-10T00:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/"},"headline":"Comparison of transformations for single-cell RNA-seq data","image":["https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/featured.png"],"datePublished":"2023-04-10T00:00:00Z","dateModified":"2023-04-10T00:00:00Z","author":{"@type":"Person","name":"Constantin Ahlmann-Eltze"},"publisher":{"@type":"Organization","name":"ERC DECODE","logo":{"@type":"ImageObject","url":"https://erc-decode.github.io/decode-website-academic/media/logo_hu755fd628a59dfbfb6631c31ab0c8a3a3_17790_192x192_fit_lanczos_3.png"}},"description":"The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-sequencing data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe four transformation approaches based on the delta method, model residuals, inferred latent expression state and factor analysis. We compare their strengths and weaknesses and find that the latter three have appealing theoretical properties; however, in benchmarks using simulated and real-world data, it turns out that a rather simple approach, namely, the logarithm with a pseudo-count followed by principal-component analysis, performs as well or better than the more sophisticated alternatives. This result highlights limitations of current theoretical analysis as assessed by bottom-line performance benchmarks.\n\n**Software:** An R package implementing the delta method and residuals-based variance-stabilizing transformations is available on [github.com/const-ae/transformGamPoi](https://github.com/const-ae/transformGamPoi).\n"}</script>
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#F39200",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#F39200"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"/privacy/"}})})</script>
-<title>Transformation and Preprocessing of Single-Cell RNA-Seq Data | ERC DECODE</title>
+<title>Comparison of transformations for single-cell RNA-seq data | ERC DECODE</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=69a0e5c151b807f4cceaf8333cbd9fed>
 <script src=../../js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js></script>
@@ -123,7 +123,7 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>Transformation and Preprocessing of Single-Cell RNA-Seq Data</h1>
+<h1>Comparison of transformations for single-cell RNA-seq data</h1>
 <div class=article-metadata>
 <div>
 <span class=author-highlighted>
@@ -131,17 +131,17 @@
 <a href=../../author/wolfgang-huber/>Wolfgang Huber</a></span>
 </div>
 <span class=article-date>
-August 2021
+April 2023
 </span>
 </div>
 <div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=https://www.biorxiv.org/content/10.1101/2021.06.24.449781v2.full.pdf target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=https://www.nature.com/articles/s41592-023-01814-1 target=_blank rel=noopener>
 PDF
 </a>
 <a class="btn btn-outline-primary btn-page-header" href=https://github.com/const-ae/transformGamPoi target=_blank rel=noopener>
 Code
 </a>
-<a class="btn btn-outline-primary btn-page-header" href=https://doi.org/10.1101/2021.06.24.449781 target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=https://doi.org/10.1038/s41592-023-01814-1 target=_blank rel=noopener>
 DOI
 </a>
 </div>
@@ -153,7 +153,7 @@ DOI
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract><p>The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-seq data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe three transformations (based on the delta method, model residuals, or inferred latent expression state) and compare their strengths and weaknesses. We find that although the residuals and latent expression state-based models have appealing theoretical properties, in benchmarks using simulated and real-world data the simple shifted logarithm in combination with principal component analysis performs surprisingly well.</p>
+<p class=pub-abstract><p>The count table, a numeric matrix of genes × cells, is the basic input data structure in the analysis of single-cell RNA-sequencing data. A common preprocessing step is to adjust the counts for variable sampling efficiency and to transform them so that the variance is similar across the dynamic range. These steps are intended to make subsequent application of generic statistical methods more palatable. Here, we describe four transformation approaches based on the delta method, model residuals, inferred latent expression state and factor analysis. We compare their strengths and weaknesses and find that the latter three have appealing theoretical properties; however, in benchmarks using simulated and real-world data, it turns out that a rather simple approach, namely, the logarithm with a pseudo-count followed by principal-component analysis, performs as well or better than the more sophisticated alternatives. This result highlights limitations of current theoretical analysis as assessed by bottom-line performance benchmarks.</p>
 <p><strong>Software:</strong> An R package implementing the delta method and residuals-based variance-stabilizing transformations is available on <a href=https://github.com/const-ae/transformGamPoi>github.com/const-ae/transformGamPoi</a>.</p>
 </p>
 <div class=row>
@@ -162,8 +162,8 @@ DOI
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Type</div>
 <div class="col-12 col-md-9">
-<a href=../../publication/#3>
-Preprint
+<a href=../../publication/#2>
+Journal article
 </a>
 </div>
 </div>
@@ -176,7 +176,7 @@ Preprint
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-<div class="col-12 col-md-9"><em>bioRxiv</em></div>
+<div class="col-12 col-md-9"><em>Nature Methods</em></div>
 </div>
 </div>
 <div class=col-md-1></div>
@@ -191,32 +191,32 @@ Preprint
 <div class=share-box>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&text=Transformation%20and%20Preprocessing%20of%20Single-Cell%20RNA-Seq%20Data" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter>
+<a href="https://twitter.com/intent/tweet?url=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&text=Comparison%20of%20transformations%20for%20single-cell%20RNA-seq%20data" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&t=Transformation%20and%20Preprocessing%20of%20Single-Cell%20RNA-Seq%20Data" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&t=Comparison%20of%20transformations%20for%20single-cell%20RNA-seq%20data" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Transformation%20and%20Preprocessing%20of%20Single-Cell%20RNA-Seq%20Data&body=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/" target=_blank rel=noopener class=share-btn-email aria-label=envelope>
+<a href="mailto:?subject=Comparison%20of%20transformations%20for%20single-cell%20RNA-seq%20data&body=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/" target=_blank rel=noopener class=share-btn-email aria-label=envelope>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&title=Transformation%20and%20Preprocessing%20of%20Single-Cell%20RNA-Seq%20Data" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in>
+<a href="https://www.linkedin.com/shareArticle?url=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&title=Comparison%20of%20transformations%20for%20single-cell%20RNA-seq%20data" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Transformation%20and%20Preprocessing%20of%20Single-Cell%20RNA-Seq%20Data%20https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
+<a href="whatsapp://send?text=Comparison%20of%20transformations%20for%20single-cell%20RNA-seq%20data%20https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&title=Transformation%20and%20Preprocessing%20of%20Single-Cell%20RNA-Seq%20Data" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://erc-decode.github.io/decode-website-academic/publication/ahlmann-eltze-2023/&title=Comparison%20of%20transformations%20for%20single-cell%20RNA-seq%20data" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
