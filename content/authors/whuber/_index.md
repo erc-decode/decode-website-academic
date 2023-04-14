@@ -2,9 +2,9 @@
 bio: ""
 email: ""
 interests:
-- Replace with actual interests of the group ...
-- Artificial Intelligence
-- Computational Linguistics
+- Open Science
+- Functional Precision Medicine
+- Bioinformatics
 organizations:
 - name: EMBL
   url: https://www.embl.org/groups/huber/
@@ -37,6 +37,6 @@ highlight_name: true
 The Huber group studies biological systems by developing statistical and bioinformatic methods for the analysis of new data types and large systematic datasets: single-cell profiling, multi-omics, high-throughput drug- or CRISPR-based perturbation assays, and quantitative imaging. Our projects range from applied data analysis for biological discovery to theoretical method development; our biological systems of interest from fundamental models of tissue biology to blood cancers. We maintain an extensive network of collaborations. These include the Molecular Medicine Partnership Unit (MMPU) 'Systems Medicine of Cancer Drugs', the ERC Synergy project DECODE, the ELLIS unit Heidelberg, and our contributions to the Bioconductor project.
 
 
-## Role in the project
+<!-- ## Role in the project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. -->
