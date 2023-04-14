@@ -15,7 +15,6 @@ abstract: |
   result highlights limitations of current theoretical analysis as assessed by bottom-line
   performance benchmarks
   
-
 authors:
   - cahlmanneltze
   - whuber
